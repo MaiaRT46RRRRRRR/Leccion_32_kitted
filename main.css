@@ -2,9 +2,31 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 100vh;
 }
 picture img{
   width: 100%;
   height: auto;
+}
+
+.fondo{
+  background-image: url(img/Landscape.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+@media screen and (max-width: 900px){
+  /*Noche*/
+  .fondo{
+    background-image: url(img/dawn.png);
+    background-size: cover;
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 600px){
+  /*Noche*/
+  .fondo{
+    background-image: url(img/maxresdefault.jpg);
+    background-size: cover;
+    height: 100vh;
+
+  }
 }
